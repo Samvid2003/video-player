@@ -1,0 +1,15 @@
+{
+  "name": "samvid",
+  "version": "1.0.0",
+  "description": "backend at sam ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "sam"
+  ],
+  "author": "samvid bharambe",
+  "license": "ISC"
+}
