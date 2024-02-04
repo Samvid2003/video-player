@@ -6,9 +6,11 @@ dotenv.config({
   path: './.env'
 });
 
+// is se dotevc...usne kaha tha pr... 
+
 const app = express();
 
-// Additional configurations and route setups...
+// Additional configurations and route setups... 
 
 connectDB()
   .then(() => {
@@ -21,7 +23,7 @@ connectDB()
     console.log("MONGO db connection failed !!! ", err);
   });
 
-
+// yahi hai index ..kya 2 min 
 
 
 // // require('dotenv').config({path: './env'})
