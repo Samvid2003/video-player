@@ -65,6 +65,11 @@ const registerUser = asyncHandler ( async (req,res) => {
     if(!createdUser){
         throw new ApiError(500,"someting went wronf while regstering user")
     }
+
+    return res.status(201).json(
+        new ApiResponse(200,"user registered succesfully")
+    )
+
 })
 
 export {
